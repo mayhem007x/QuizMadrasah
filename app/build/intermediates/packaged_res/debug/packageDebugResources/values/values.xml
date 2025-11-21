@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#FF8A2C</color>
+    <string name="app_name">QuizMadrasah</string>
+    <string name="dnd_permission_toast">Layanan Do Not Disturb diperlukan untuk quiz.</string>
+    <string name="error_check_connection">Silakan periksa koneksi internet Anda</string>
+    <string name="error_config_failed">Gagal mengambil konfigurasi</string>
+    <string name="error_no_connection">Tidak dapat terhubung ke server</string>
+    <string name="exit_dialog_message">Anda yakin mau keluar aplikasi?</string>
+    <string name="exit_dialog_negative">Tidak</string>
+    <string name="exit_dialog_positive">Ya</string>
+    <string name="overlay_permission_toast">Layanan Overlay diperlukan untuk quiz.</string>
+    <string name="permission_dialog_button">Berikan Izin</string>
+    <string name="permission_dialog_message">Mohon izinkan aplikasi untuk menggunakan layanan di bawah ini, jika tidak diizinkan, aplikasi tidak akan berjalan.</string>
+    <string name="permission_dialog_title">Izin Diperlukan</string>
+    <style name="Theme.QuizMadrasah" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#00695C</item>
+        <item name="colorPrimaryVariant">#004D40</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#00ACC1</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

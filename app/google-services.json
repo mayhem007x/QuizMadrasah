@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "641919447828",
+    "project_id": "quizmadrasah-mts",
+    "storage_bucket": "quizmadrasah-mts.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641919447828:android:fed9a7bbe2701bf72c8801",
+        "android_client_info": {
+          "package_name": "com.mtsyastiq.quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi2NTCoEjz15fkb_3-7tNOoWXd30lrFJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

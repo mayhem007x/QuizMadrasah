@@ -1,0 +1,262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mtsyastiq.quiz"
+4    android:versionCode="3"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:6:5-78
+12-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:6:22-75
+13    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+13-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:7:5-85
+13-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:7:22-82
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:8:5-77
+14-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:8:22-74
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:23:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:24:5-68
+16-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:24:22-65
+17    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:25:5-79
+17-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:25:22-76
+18    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+18-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:26:5-88
+18-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:26:22-85
+19    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+19-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:27:5-82
+19-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:27:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+20-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:26:22-107
+21
+22    <permission
+22-->[androidx.core:core:1.12.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\83da8bc78f8c230fe3eea55c496f7388\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.mtsyastiq.quiz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.12.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\83da8bc78f8c230fe3eea55c496f7388\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.12.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\83da8bc78f8c230fe3eea55c496f7388\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.mtsyastiq.quiz.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.12.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\83da8bc78f8c230fe3eea55c496f7388\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\83da8bc78f8c230fe3eea55c496f7388\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:10:5-35:19
+29        android:allowBackup="true"
+29-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:11:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.12.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\83da8bc78f8c230fe3eea55c496f7388\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+31        android:extractNativeLibs="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:13:9-43
+33        android:label="@string/app_name"
+33-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:12:9-41
+34        android:networkSecurityConfig="@xml/network_security_config"
+34-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:16:9-69
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:14:9-54
+36        android:supportsRtl="true"
+36-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:15:9-35
+37        android:theme="@style/Theme.QuizMadrasah"
+37-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:18:9-50
+38        android:usesCleartextTraffic="false" >
+38-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:17:9-45
+39        <activity
+39-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:19:9-24:53
+40            android:name="com.mtsyastiq.quiz.QuizActivity"
+40-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:19:19-47
+41            android:configChanges="orientation|screenSize"
+41-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:22:13-59
+42            android:exported="false"
+42-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:20:13-37
+43            android:lockTaskMode="if_whitelisted"
+43-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:24:13-50
+44            android:resizeableActivity="false"
+44-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:23:13-47
+45            android:screenOrientation="portrait" />
+45-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:21:13-49
+46        <activity
+46-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:25:9-81
+47            android:name="com.mtsyastiq.quiz.ChooseDay7Activity"
+47-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:25:19-53
+48            android:exported="false" />
+48-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:25:54-78
+49        <activity
+49-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:26:9-101
+50            android:name="com.quizmadrasah.app.ChooseDay8Activity"
+50-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:26:19-73
+51            android:exported="false" />
+51-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:26:74-98
+52        <activity
+52-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:27:9-101
+53            android:name="com.quizmadrasah.app.ChooseDay9Activity"
+53-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:27:19-73
+54            android:exported="false" />
+54-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:27:74-98
+55        <activity
+55-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:28:9-79
+56            android:name="com.mtsyastiq.quiz.DayGradeActivity"
+56-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:28:19-51
+57            android:exported="false" />
+57-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:28:52-76
+58        <activity
+58-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:29:9-34:20
+59            android:name="com.mtsyastiq.quiz.MainActivity"
+59-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:29:19-47
+60            android:exported="true" >
+60-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:29:48-71
+61            <intent-filter>
+61-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:30:13-33:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:31:17-69
+62-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:31:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:32:17-77
+64-->D:\My Projects\App\QuizMadrasah\app\src\main\AndroidManifest.xml:32:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <service
+68-->[com.google.firebase:firebase-analytics-ktx:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\fcae4ed755285bd4ae4591285f1873dc\transformed\jetified-firebase-analytics-ktx-21.5.1\AndroidManifest.xml:8:9-14:19
+69            android:name="com.google.firebase.components.ComponentDiscoveryService"
+69-->[com.google.firebase:firebase-analytics-ktx:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\fcae4ed755285bd4ae4591285f1873dc\transformed\jetified-firebase-analytics-ktx-21.5.1\AndroidManifest.xml:9:13-84
+70            android:directBootAware="true"
+70-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-analytics-ktx:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\fcae4ed755285bd4ae4591285f1873dc\transformed\jetified-firebase-analytics-ktx-21.5.1\AndroidManifest.xml:10:13-37
+72            <meta-data
+72-->[com.google.firebase:firebase-analytics-ktx:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\fcae4ed755285bd4ae4591285f1873dc\transformed\jetified-firebase-analytics-ktx-21.5.1\AndroidManifest.xml:11:13-13:85
+73                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+73-->[com.google.firebase:firebase-analytics-ktx:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\fcae4ed755285bd4ae4591285f1873dc\transformed\jetified-firebase-analytics-ktx-21.5.1\AndroidManifest.xml:12:17-129
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-analytics-ktx:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\fcae4ed755285bd4ae4591285f1873dc\transformed\jetified-firebase-analytics-ktx-21.5.1\AndroidManifest.xml:13:17-82
+75            <meta-data
+75-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:37:13-39:85
+76                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+76-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:38:17-139
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:39:17-82
+78            <meta-data
+78-->[com.google.firebase:firebase-installations:17.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\ac1ef0d19e4a822af7b678cf817934c9\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+79                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+79-->[com.google.firebase:firebase-installations:17.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\ac1ef0d19e4a822af7b678cf817934c9\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-installations:17.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\ac1ef0d19e4a822af7b678cf817934c9\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-installations:17.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\ac1ef0d19e4a822af7b678cf817934c9\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+82                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+82-->[com.google.firebase:firebase-installations:17.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\ac1ef0d19e4a822af7b678cf817934c9\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-installations:17.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\ac1ef0d19e4a822af7b678cf817934c9\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\09f438ba8523645623c721d62e270193\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+85                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+85-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\09f438ba8523645623c721d62e270193\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-common-ktx:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\09f438ba8523645623c721d62e270193\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+88                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+88-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+90        </service>
+91
+92        <property
+92-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:30:9-32:61
+93            android:name="android.adservices.AD_SERVICES_CONFIG"
+93-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:31:13-65
+94            android:resource="@xml/ga_ad_services_config" />
+94-->[com.google.android.gms:play-services-measurement-api:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\f4d8146e99d27d679f87de691365846e\transformed\jetified-play-services-measurement-api-21.5.1\AndroidManifest.xml:32:13-58
+95
+96        <provider
+96-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+97            android:name="com.google.firebase.provider.FirebaseInitProvider"
+97-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+98            android:authorities="com.mtsyastiq.quiz.firebaseinitprovider"
+98-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+99            android:directBootAware="true"
+99-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+100            android:exported="false"
+100-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+101            android:initOrder="100" />
+101-->[com.google.firebase:firebase-common:20.4.2] D:\Program Files\Android Studio\jbr\caches\transforms-4\dc8414e774664688fd5f1a65e9b36493\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+102
+103        <receiver
+103-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:29:9-33:20
+104            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+104-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:30:13-85
+105            android:enabled="true"
+105-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:31:13-35
+106            android:exported="false" >
+106-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:32:13-37
+107        </receiver>
+108
+109        <service
+109-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:35:9-38:40
+110            android:name="com.google.android.gms.measurement.AppMeasurementService"
+110-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:36:13-84
+111            android:enabled="true"
+111-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:37:13-35
+112            android:exported="false" />
+112-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:38:13-37
+113        <service
+113-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:39:9-43:72
+114            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+114-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:40:13-87
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:41:13-35
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:42:13-37
+117            android:permission="android.permission.BIND_JOB_SERVICE" />
+117-->[com.google.android.gms:play-services-measurement:21.5.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\5a50a5fc1a9bc03679370bfe6b654d8e\transformed\jetified-play-services-measurement-21.5.1\AndroidManifest.xml:43:13-69
+118
+119        <uses-library
+119-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] D:\Program Files\Android Studio\jbr\caches\transforms-4\f40a64fc3991be6062f90bfa81b4e1ef\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+120            android:name="android.ext.adservices"
+120-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] D:\Program Files\Android Studio\jbr\caches\transforms-4\f40a64fc3991be6062f90bfa81b4e1ef\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+121            android:required="false" />
+121-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] D:\Program Files\Android Studio\jbr\caches\transforms-4\f40a64fc3991be6062f90bfa81b4e1ef\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:18.1.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\3767e9e3f37802aeb8442a5166735c42\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:18.1.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\3767e9e3f37802aeb8442a5166735c42\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:18.1.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\3767e9e3f37802aeb8442a5166735c42\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+126
+127        <provider
+127-->[androidx.emoji2:emoji2:1.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\bfb422e202b5d4141df37efc45e91a76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+128            android:name="androidx.startup.InitializationProvider"
+128-->[androidx.emoji2:emoji2:1.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\bfb422e202b5d4141df37efc45e91a76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+129            android:authorities="com.mtsyastiq.quiz.androidx-startup"
+129-->[androidx.emoji2:emoji2:1.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\bfb422e202b5d4141df37efc45e91a76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+130            android:exported="false" >
+130-->[androidx.emoji2:emoji2:1.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\bfb422e202b5d4141df37efc45e91a76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+131            <meta-data
+131-->[androidx.emoji2:emoji2:1.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\bfb422e202b5d4141df37efc45e91a76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+132                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+132-->[androidx.emoji2:emoji2:1.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\bfb422e202b5d4141df37efc45e91a76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+133                android:value="androidx.startup" />
+133-->[androidx.emoji2:emoji2:1.2.0] D:\Program Files\Android Studio\jbr\caches\transforms-4\bfb422e202b5d4141df37efc45e91a76\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+134            <meta-data
+134-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\ed755d8458654cf51ee4f4dc719444e4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+135                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+135-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\ed755d8458654cf51ee4f4dc719444e4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+136                android:value="androidx.startup" />
+136-->[androidx.lifecycle:lifecycle-process:2.4.1] D:\Program Files\Android Studio\jbr\caches\transforms-4\ed755d8458654cf51ee4f4dc719444e4\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+137        </provider>
+138    </application>
+139
+140</manifest>
